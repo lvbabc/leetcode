@@ -19,7 +19,6 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hash_map = dict()
-        hash_map.it
         for index, num in enumerate(nums):
             another_num = target - num
             if another_num in hash_map:
